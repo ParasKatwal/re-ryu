@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
 
 $color:(
     // primary: #00A2B1,
-    primary: #2167be, // rgba(33, 103, 190, 1)
-    secondary: #e5560f, //rgba(229, 86, 15, 1)
+    primary: #12262f, // rgba(18, 38, 47, 1)
+    secondary: #901915, // rgba(144, 25, 21, 1)
     text: #616161
 
 );
@@ -295,6 +295,7 @@ a{
     max-width: 70% !important;
 }
 nav{
+    padding: 0 !important;
     button{
         background: color(secondary) !important;
         i{
@@ -304,20 +305,31 @@ nav{
     .navbar-toggler{
         background: #F0EFDA;
     }
+    .navbar-nav{
+        margin-left: auto;
+    }
     .navbar-brand{
-        width: 23%;
         img{
-            width: 70%;
+            width: 100px;
+            height: 50px;
+            object-fit: contain;
+            border: 1px solid red;
         }
     }
     .nav-item{
-        margin: 0 20px;
-        font-size: 15px;
-        font-weight: lighter;
+        margin: 0 10px;
+        a{
+            font-weight: 300;
+            font-size: 13px;
+        }
     }
     .nav-link{
         color: color(primary) !important;
         font-weight: 500;
+    }
+    .signin{
+        background: color(primary);
+        color: white !important;
     }
     .effect::after{
         content: '';
@@ -331,30 +343,6 @@ nav{
         width: 100%;
         transition: width .3s;
     }
-    .dropdown{
-        .dropdown-menu{
-            background: color(primary);
-            padding: 0;
-        }
-        .dropdown-item{
-            color: white;
-            border-bottom: 0.5px solid white;
-            transition: 0.5s ease;
-            font-size: 14px;
-            font-weight: lighter;
-            padding: 5px;
-        }
-        .dropdown-item:hover{
-           background: white;
-           color: color(primary);
-        }
-    }
-    .dropdown-menu li:hover .sub-menu {
-        visibility: visible;
-    }
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }  
 }
 
 // INDEX

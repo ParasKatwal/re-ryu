@@ -36,51 +36,32 @@
 
 <section>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="assets_front/img/logo2.png" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="assets_front/img/lg2.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link effect" href="index.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link effect" href="index.php">For Institutions<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link effect" href="service.php">For Consultants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link effect" href="gallery.php">For Students</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Courses
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ielts.php">IELTS</a>
-                        <a class="dropdown-item" href="gre.php">GRE</a>
-                        <a class="dropdown-item" href="tofels.php">TOFELS</a>
-                        <a class="dropdown-item" href="gmat.php">GMAT</a>
-                        <a class="dropdown-item" href="sat.php">SAT</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="study-abroad.php">
-                    Study Abroad
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="study-uk.php">Study in UK</a>
-                        <a class="dropdown-item" href="study-usa.php">Study in USA</a>
-                        <a class="dropdown-item" href="study-aust.php">Study in Australia</a>
-                        <a class="dropdown-item" href="study-canada.php">Study in Canada</a>
-                        <a class="dropdown-item" href="study-japan.php">Study in Japan</a>
-                        <a class="dropdown-item" href="study-newzealand.php">Study in New Zealand</a>
-                    </div>
+                    <a class="nav-link effect" href="about.php">For Government</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link effect" href="service.php">Services</a>
+                    <a class="nav-link effect" href="contact.php">High Schools</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link effect" href="gallery.php">Gallery</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link effect" href="about.php">About Us</a>
+                    <a class="nav-link effect" href="contact.php">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link effect" href="contact.php">Contact</a>
+                    <a class="nav-link signin" href="contact.php">SIGN IN</a>
                 </li>
             </ul>
         </div>
