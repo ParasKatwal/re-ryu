@@ -1,0 +1,243 @@
+
+
+.country .owl-nav, .testimonials .owl-nav, .university_partners .owl-nav{
+    display: none;
+}
+.testimonials {
+    height: auto;
+}
+.study_left_menu .menu{
+    height: 250px;
+    width: 280px;
+}
+
+@media (max-width: 992px) {
+    .application_popup form{
+        padding: 10px;
+    }
+    .application_popup form label{
+        font-size: 15px;
+    }
+    nav .navbar-brand{
+        width: 40%;
+    }
+    .study_left_menu .menu{
+        height: 200px;
+        width: 200px;
+    }
+    .about .ceo_meg{
+        padding: 10px;
+    }
+    .about .ceo_meg img{
+        height: 100px;
+        width: 100px;
+    }
+    .about .ceo_meg .meg{
+        padding: 5px;
+    }
+    .about .ceo_meg .meg p{
+        font-size: 12px;
+    }
+    .about .ceo_meg .meg h4, .about .ceo_meg .meg h5{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-nav .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .study_left_menu .menu{
+        height: 200px;
+        width: 300px;
+    }
+    .news_feed .news_item img{
+        width: 100%;
+    }
+    .university_partners h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .application_popup form{
+        padding: 0px;
+    }
+    .application_popup form label, .application_popup form input::placeholder, .application_popup form textarea::placeholder, .application_popup form input[type="text"], .application_popup form input[type="email"], .application_popup form textarea {
+        font-size: 13px;
+    }
+    .modal{
+        max-width: 100% !important;
+    }
+    nav .navbar-brand img{
+        width: 100%;
+    }
+    .head_slider .slider .text_wrap{
+        bottom: 30%;
+        left: 80px;
+    }
+    .head_slider .slider .text_wrap h1{
+        font-size: 40px;
+    }
+    .head_slider .slider .text_wrap .text:before{
+        height: 5px;
+        width: 40px;
+        left: -50px;
+    }
+    .head_slider .slider .text_wrap h2{
+        font-size: 30px;
+    }
+    .head_slider .slider .text_wrap a{
+        padding: 10px 20px;
+    }
+    .logo_notch_wrap h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .logo_notch_wrap .logo{
+        width: 25px;
+        height: 25px;
+    }
+    .logo_notch_wrap .logo:before{
+        height: 1px;
+        right: 30px;
+    }
+    .logo_notch_wrap .logo:after{
+        height: 1px;
+        left: 30px;
+    }
+    .service .title h1{
+        font-size: 30px;
+    }
+    .service .title h1:before{
+        height: 3px;
+    }
+    .country .country_top{
+        padding-top: 20px;
+        padding: 10px;
+    }
+    .country .logo{
+        width: 25px;
+        height: 25px;
+    }
+    .country .logo i{
+        font-size: 25px;
+    }
+    .counter .rightborder{
+        border: none;
+    }
+    .testimonials .testimonials_top h1, .news .news_top h1{
+        font-size: 30px;
+    }
+    .testimonials .testimonials_top h1:before{
+        height: 3px;
+    }
+    .testimonials .item{
+        padding: 0 10px;
+    }
+    .testimonials .item .image img{
+        height: 100px;
+        width: 100px;
+    }
+    .testimonials .comment_bg{
+        font-size: 250px;
+    }
+    .news .news_top{
+        margin-left: 5px;
+    }
+    .news .news_top h1:before{
+        height: 3px;
+    }
+    footer h1{
+        font-size: 30px;
+    }
+    footer .social_media a{
+        font-size: 15px;
+        padding: 5px 10px;
+        margin: 5px;
+    }
+    footer .footer_menu h5{
+        font-size: 18px;
+    }
+    footer .footer_menu .row{
+        padding: 5px;
+    }
+    footer .footer_menu a, footer .footer_menu span{
+        font-size: 13px;
+    }
+    .study_left_menu a{
+        margin: 10px auto;
+    }
+    .contact_us .contact_circle_wrap{
+        flex-wrap: wrap;
+    }
+    .contact_us .contact_circle_wrap .item{
+        height: 100px;
+        width: 100px;
+    }
+    .contact_us .contact_circle_wrap i{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .contact_us .form_wrapper .left_wrap h1{
+        font-size: 30px;
+    }
+    .contact_us .form_wrapper .left_wrap h1:before{
+        height: 3px;
+    }
+    .contact_us .form_wrapper .left{
+        margin-left: 70px;
+    }
+    .contact_us .form_wrapper .left_wrap i{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 370px) {
+    .top-nav span, .top-nav .apply_btn a, .top-nav i{
+        font-size: 12px;
+    }
+    .top-nav .top_socialmedia i{
+        margin: 2px;
+        padding: 3px;
+        font-size: 12px;
+    }
+    .application_popup form label, .application_popup form input::placeholder, textarea::placeholder, .application_popup form input[type="text"], input[type="email"], textarea {
+        font-size: 10px;
+    }
+    .copyright p, .copyright a{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .about .ceo_meg img{
+        height: 80px;
+        width: 80px;
+        padding: 5px;
+    }
+    .about .ceo_meg .meg{
+        padding: 3px;
+    }
+    .about .ceo_meg .meg p{
+        font-size: 10px;
+    }
+    .about .ceo_meg .meg h4, .about .ceo_meg .meg h5{
+        font-size: 12px;
+    }
+    .contact_us .contact_circle_wrap .item{
+        height: 80px;
+        width: 80px;
+    }
+    .contact_us .contact_circle_wrap i{
+        font-size: 25px;
+        line-height: 30px;
+        padding: 5px;
+    }
+    .contact_us .contact_circle_wrap p{
+        font-size: 13px;
+        padding: 5px;
+    }
+    .contact_us .form_wrapper .left{
+        margin-left: 50px;
+    }
+}
