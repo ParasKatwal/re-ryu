@@ -11,6 +11,7 @@ body {
 
 a, a:hover, a:visited, a:focus {
   text-decoration: none;
+  color: #12262f;
 }
 
 a:hover {
@@ -273,21 +274,13 @@ a {
 
 .top-nav .apply_btn a {
   display: block;
-  color: white;
   padding: 6px;
   margin: 8px;
-  background: #901915;
+  background: white;
   border-radius: 5px;
   font-size: 14px;
   -webkit-transition: 1s;
   transition: 1s;
-  border: 0.5px solid #2167be;
-}
-
-.top-nav .apply_btn a:hover {
-  color: white;
-  background: #12262f;
-  border: 0.5px solid white;
 }
 
 .application_popup {
